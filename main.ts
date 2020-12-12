@@ -5,7 +5,7 @@ input.onButtonPressed(Button.A, function () {
         debug = 1
     }
     basic.showNumber(debug)
-    basic.pause(1000)
+    basic.pause(500)
     basic.clearScreen()
 })
 serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
