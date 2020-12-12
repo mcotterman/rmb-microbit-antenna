@@ -4,7 +4,9 @@ input.onButtonPressed(Button.A, function () {
     } else {
         debug = 1
     }
-    basic.showString("" + (debug))
+    basic.showNumber(debug)
+    basic.pause(1000)
+    basic.clearScreen()
 })
 serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
     msg = serial.readLine()
