@@ -1,5 +1,5 @@
 {
-    "name": "rmb-microbit-antenna",
+    "name": "cjl-microbit-antenna",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -16,7 +16,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "4.0.11",
+        "target": "6.0.19",
         "targetId": "microbit"
     },
     "supportedTargets": [
